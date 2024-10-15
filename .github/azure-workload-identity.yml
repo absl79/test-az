@@ -1,6 +1,7 @@
 name: Azure Workload Identity Federation
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
